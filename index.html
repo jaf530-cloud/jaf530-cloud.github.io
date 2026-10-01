@@ -94,7 +94,6 @@ nav {
   align-items: center;
   justify-content: center;
   text-align: center;
-
   background: radial-gradient(
     ellipse at top,
     #203653,
@@ -343,54 +342,6 @@ p {
   font-size: 13px;
 }
 
-/* ACTUAL EXCEL SCREENSHOTS */
-
-.screenshot-gallery {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 25px;
-  margin: 30px 0;
-}
-
-.screenshot-card {
-  margin: 0;
-  background: #0b1426;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 18px;
-  overflow: hidden;
-}
-
-.screenshot-card h4 {
-  color: var(--gold);
-  font-size: 19px;
-  margin: 0 0 15px;
-}
-
-.screenshot-card a {
-  display: block;
-}
-
-.screenshot-card img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-  background: white;
-  border-radius: 6px;
-  transition: 0.2s;
-}
-
-.screenshot-card img:hover {
-  opacity: 0.9;
-}
-
-.screenshot-card figcaption {
-  color: var(--muted);
-  font-size: 14px;
-  padding-top: 15px;
-}
-
 /* CONTACT */
 
 .contact {
@@ -442,10 +393,6 @@ footer {
 
   .project-card {
     padding: 20px;
-  }
-
-  .screenshot-card {
-    padding: 10px;
   }
 
 }
@@ -790,71 +737,6 @@ footer {
 
     </div>
 
-    <!-- TWO ACTUAL EXCEL SCREENSHOTS -->
-
-    <div class="screenshot-gallery">
-
-      <!-- SCREENSHOT 1 -->
-
-      <figure class="screenshot-card">
-
-        <h4>
-          1. Optimal Portfolio Allocations
-        </h4>
-
-        <a
-          href="optimal-allocations.png"
-          target="_blank"
-          rel="noopener noreferrer">
-
-          <img
-            src="optimal-allocations.png"
-            alt="Excel summary showing maximum return, minimum variance, and maximum Sharpe ratio portfolio allocations"
-            loading="lazy">
-
-        </a>
-
-        <figcaption>
-          Summary of portfolio optimization
-          results, including maximum-return,
-          minimum-variance, and maximum-Sharpe
-          allocations. Click the image to enlarge.
-        </figcaption>
-
-      </figure>
-
-      <!-- SCREENSHOT 2 -->
-
-      <figure class="screenshot-card">
-
-        <h4>
-          2. Portfolio Risk and Return Analysis
-        </h4>
-
-        <a
-          href="portfolio-results.png"
-          target="_blank"
-          rel="noopener noreferrer">
-
-          <img
-            src="portfolio-results.png"
-            alt="Excel calculations showing portfolio weights, expected returns, variance, volatility, and Sharpe ratios"
-            loading="lazy">
-
-        </a>
-
-        <figcaption>
-          Excel calculations comparing JPMorgan
-          and NVIDIA portfolio allocations,
-          expected returns, variance,
-          volatility, and Sharpe ratios.
-          Click the image to enlarge.
-        </figcaption>
-
-      </figure>
-
-    </div>
-
     <!-- PROJECT CONCLUSION -->
 
     <p>
@@ -866,7 +748,7 @@ footer {
       future investment performance.
     </p>
 
-    <!-- PROJECT REFERENCES -->
+    <!-- PORTFOLIO PROJECT REFERENCES -->
 
     <div class="buttons">
 
@@ -949,12 +831,29 @@ footer {
       a startup environment.
     </p>
 
+    <!-- BOOPCAT COMPANY REFERENCE -->
+
+    <div class="buttons">
+
+      <a
+        class="btn btn-outline"
+        href="https://boopcat.co/"
+        target="_blank"
+        rel="noopener noreferrer">
+        Visit Boopcat Website
+      </a>
+
+    </div>
+
     <p style="
       color:#b4bfd0;
-      font-size:13px;">
+      font-size:13px;
+      margin-top:20px;">
 
-      Project overview presented without
-      confidential company financial data.
+      Reference: Boopcat's company website.
+      Project work is summarized without
+      disclosing confidential company
+      financial information.
 
     </p>
 
